@@ -1,0 +1,25 @@
+[workspace]
+members = [
+    ".",
+    "examples/basic",
+]
+
+[package]
+name = "buffer_display"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vulkano = "0.34.0"
+vulkano-shaders = "0.34.0"
+vulkano-win = "0.34.0"
+vulkano-macros = "0.34.0"
+winit = "0.28.0"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
