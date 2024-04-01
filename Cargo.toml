@@ -8,6 +8,14 @@ members = [
 name = "buffer_display"
 version = "0.1.0"
 edition = "2021"
+authors = ["Coddeus"]
+description = "Display a buffer on a window, updating in realtime"
+documentation = "docs.rs/buffer_display"
+readme = "README.md"
+repository = "https://github.com/Coddeus/buffer_display"
+license = "GPL-3.0-or-later"
+keywords = ["display", "buffer", "realtime", "window", "rendering"]
+categories = ["graphics", "multimedia", "rendering", "rendering::graphics-api", "visualization"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
